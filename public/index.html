@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html>
+   <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Su compañero de viaje</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+        
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    </head>
+  <body data-spy="scroll" data-target="#scrollTarget" data-offset="35">
+    <header class="row">
+      <div class="container-fluid">
+        <nav id="scrollTarget" class="navbar navbar-expand-lg navbar-light float-right fixed-top text-left">
+          <div class="widthlink">
+            <ul class="nav float-left">
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"><i class="fa fa-spoon"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#"><i class="fa fa-chevron-circle-up"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white disabled " href="#"><i class="fa fa-envelope-o"></i></a>
+              </li>
+            </ul>
+          </div>
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav navspace">
+              <li class="nav-item active">
+                <a class="nav-link text-white navspace active" href="#quienes">Quiénes somos <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white navspace" href="#">Servicios</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white navspace" href="#paquetes">Paquetes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white navspace" href="#contacto">Contacto</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white navspace" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fa fa-facebook -o"></i>
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#quienes">Quiénes somos</a>
+                  <a class="dropdown-item" href="#">Servicios</a>
+                  <a class="dropdown-item" href="#paquetes">Paquetes</a>
+                  <a class="dropdown-item" href="#contactenos">Contacto</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100" src="./imgs/san-diego.png" alt="First slide">
+          <div class="carousel-caption d-none d-md-block">
+          <h3 class="">Su compañero de viaje</h3>
+          <p>...</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./imgs/brasil.png" alt="Second slide">
+          <div class="carousel-caption d-none d-md-block">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <p>...</p>
+        </div>
+        </div>
+        <div class="carousel-item">
+          <img class="d-block w-100" src="./imgs/costa.png" alt="Third slide">
+          <div class="carousel-caption d-none d-md-block">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <p>...</p>
+        </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </header>
+
+  <main>
+    <section id="paquetes">
+      <div class="container">
+        <h2 class="text-center packh">PAQUETES DESTACADOS</h2>
+        <div class="container">
+          <div class="main">
+              <div class="box">
+              <img src="./imgs/crucero.jpg" />
+                <div class="overlay">
+                  <h4 class="card-title text-white text-center">Caribe legendario</h4>
+                </div>  
+              <a class="more" href="#" data-toggle="modal" data-target="#exampleModal">Más información</a>          
+            </div>
+            
+            <div class="box">
+              <img src="./imgs/aficionados.jpg" />
+                <div class="overlay">
+                  <h4 class="card-title text-white text-center">La sele en México</h4>
+                </div>
+                <a href="#" data-toggle="modal" data-target="#exampleModal">Más información</a>
+            </div>
+            
+            <div class="box">
+              <img src="https://media-api.xogrp.com/images/32d58433-aac7-4cbc-9991-4ace9eeef92f~rs_2001.480.fit.jpg" />
+                <div class="overlay">
+                  <h4 class="card-title text-white text-center">Vacaciones en Cuba</h4>
+                </div>
+                <a href="#" data-toggle="modal" data-target="#exampleModal">Más información</a>
+            </div>
+            
+            <div class="box">
+              <img src="./imgs/crucero.jpg" />
+                <div class="overlay">
+                  <h4 class="card-title text-white text-center">Caribe legendario</h4>
+                </div>
+                <a href="#" data-toggle="modal" data-target="#exampleModal">Más información</a>
+            </div>
+            
+            <div class="box">
+              <img src="./imgs/aficionados.jpg"/>
+                <div class="overlay">
+                  <h4 class="card-title text-white text-center">La sele en México</h4>
+                </div>
+              <a href="#" data-toggle="modal" data-target="#exampleModal">Más información</a>
+            </div>
+            
+            <div class="box">
+              <img src="https://media-api.xogrp.com/images/32d58433-aac7-4cbc-9991-4ace9eeef92f~rs_2001.480.fit.jpg" />
+                <div class="overlay">
+                  <h4 class="card-title text-white text-center">Caribe legendario</h4>
+                </div>
+              <a href="#" data-toggle="modal" data-target="#exampleModal">Más información</a>
+            </div>
+
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Información adicional</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus provident, facere nisi labore dolore, similique obcaecati cum, totam autem voluptates dignissimos neque distinctio dolores ut reprehenderit numquam deserunt illum aliquam."
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary">Guardar cambios</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>    
+      </div>
+    </section>
+    <section id="contacto">
+        <h2 class="text-center packh">CONTACTENOS</h2>
+        <div class="container">
+            <p class="lead">Si desea información acerca de nuestros sevicios complete el siguiente formulario para contactarle a la brevedad posible.</p>
+          <form class="form-group col-md-6 ">
+            <div class="form-group">
+              <label for="txtNombre">Nombre</label>
+              <input type="text" class="form-control active" id="txtNombre" placeholder="Nombre">
+            </div>
+            <div class="form-group">
+              <label for="txtEmail">Correo electrónico</label>
+              <input type="email" class="form-control" id="txtEmail" aria-describedby="emailHelp" placeholder="Enter email">
+              <small id="emailHelp" class="form-text text-muted active">Nosotros nunca compartiremos este email a alguien más.</small>
+            </div>
+            <div class="form-group">
+              <label for="txtPhone">Teléfono</label>
+              <input type="number" class="form-control active" id="txtPhone" placeholder="Teléfono">
+            </div>
+            <div class="form-group">
+              <label for="txtMensaje">Mensaje</label>
+              <textarea class="form-control active" id="txtMensaje" rows="3"></textarea>
+            </div>
+          
+            <button type="button" data-toggle="modal" class="disabled" id="btnEnviar" data-target="#myModal">Launch modal</button>
+          </form>
+      </div>
+    </section>
+    <section id="quienes">
+      <div class="row">
+        <div class="col-md-6 col-sm-2">
+          <div class="paddingIcons">
+            <ul class="nav">
+              <li class="nav-item">
+                <a class="nav-link text-white  text-center" href="#"><i class="fa fa-spoon"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white text-center" href="#"><i class="fa fa-chevron-circle-up"></i></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white text-center " href="#"><i class="fa fa-envelope-o"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-md-6 paddingText">
+          <h4 class="card-title">Quiénes Somos</h4>
+            <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque ducimus molestias sapiente maiores. Dignissimos ab nihil, illo similique nobis odio quidem dolorum quod libero dolores. Beatae molestias quasi architecto impedit."</p>
+            <p class="card-text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad architecto nulla dolor! Dolorem magnam, impedit maxime adipisci, esse tempora ex iusto dicta possimus voluptas? Explicabo quia eligendi fugit temporibus!"</p>
+        </div>
+
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="card">
+      <div class="card-body bg-dark card-inverse">
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link active text-white" href="#">QUIÉNES SOMOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white"  href="#">SERVICIOS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#">PAQUETES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="#contacto">CONTACTO</a>
+          </li>
+        </ul>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link text-white bg-inverse" href="https://es-la.facebook.com/"><i class="fa fa-facebook"></i></a>
+          </li>
+        </ul>
+        <p class="justify-content-center text-center text-white">
+         2017. Lorem ipsum dolor sit amet, consectetur adipisicing elit..
+        </p>
+      </div>
+</div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="js/mail.js"></script>
+  </body>
+</html>
