@@ -1,1 +1,2 @@
 web: node --debug=5858 api/index.js
+API_URL=http://localhost:5000/
