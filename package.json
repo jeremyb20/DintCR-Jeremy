@@ -6,10 +6,9 @@
     "node": "6.11.x",
     "npm" : "3.10.x"
   },
-  "main": "api/index.js",
+  "main": "index.html",
   "scripts": {
-    "start": "node api/index.js",
-    "test": "node test.js"
+    "start": "node api/index.js"
   },
   "dependencies": {
     "body-parser": "^1.13.3",
